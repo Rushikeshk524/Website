@@ -1,0 +1,46 @@
+/* fonts styling */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+
+/* css default format setting */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Montserrat', sans-serif;
+    scroll-behavior: smooth;;
+}
+
+.section_title h1{
+    text-decoration: underline;
+}
+
+.carousel-indicators li{
+    width: auto !important;
+    height: auto !important;
+}
+
+.feature{
+    background: #695acb;
+}
+
+.footer_section{
+    border-top: 3px solid #695acb;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+.footer_links ul li{
+    list-style: none;
+    margin-bottom: 1rem;
+}
+.footer_links ul li a{
+    color: #000;
+    text-decoration: none;
+    transition: all 0.2s linear;
+}
+.footer_links ul li a:hover{
+    text-decoration: none;
+    margin-left: 5px;
+}
+
+
